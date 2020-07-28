@@ -14,7 +14,7 @@ app.get("/user/:name", (req, res) => {
     }
   });
 
-  res.send(`<h1>Hola ${reqParamName.join('')}</h1>`);
+  res.send(`<h1>Hola ${reqParamName.join('')}!</h1>`);
 });
 
 app.listen(3000, () => console.log("Listening on port: 3000"));
